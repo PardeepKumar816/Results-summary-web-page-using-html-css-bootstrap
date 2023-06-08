@@ -1,0 +1,256 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.row {
+    height: 100vh;
+}
+
+.custom-card {
+    color: white;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 5px 20px 0;
+    border-radius: 8%;
+    position: relative; 
+    z-index: 2;
+    /* margin-left: 20px; */
+    /* margin: 0 0; */
+    left: 20px;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: hsl(241, 100%, 89%);
+}
+
+.card-circle {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+
+.card-circle h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.card-circle h6 {
+    font-size: 0.7rem;
+    color: hsl(241, 100%, 89%);
+}
+
+#card-body-text {
+    /* margin: 0 20px 20px; */
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+    /* justify-content: center;
+    text-align: center; */
+}
+
+.custom-card-2 {
+   background-color: white;
+    padding: 5px 20px 0 50px;
+    /* border-radius: 8%; */
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border: none;
+    /* margin: 0 0; */
+    position: relative; 
+    z-index: 1;
+}
+
+.custom-button{
+    margin: 20px 0;
+    /* padding: 0 20px; */
+}
+
+.custom-button .btn:hover {
+    background-color: hsl(241, 81%, 54%);
+    border: none;
+  }
+  
+
+.card-title-2{
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.card-body-2 img{
+    width: 20%;
+    display: flex;
+    margin: 0 5px 0 0;
+}
+
+.card-body-2 p{
+    margin: 0 0;
+    font-size: 0.9rem;
+}
+
+#box-text3{
+    margin-right: 6px;
+}
+
+#box-text4{
+    color: hsl(255, 2%, 61%);
+}
+
+
+.card-2-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(6, 100%, 98%);
+    padding: 10px 7px;
+    border-radius: 10%;
+    margin: 0 0 10px;
+}
+
+.box1-text1{
+   display: flex;
+   flex-direction : row;
+}
+
+.box1-text1 p{
+    color: hsl(0, 100%, 67%);
+}
+
+.box1-text2{
+    display: flex;
+    margin: 0 0;
+}
+
+.card-2-box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(42, 100%, 97%);
+    padding: 10px 7px;
+    border-radius: 10%;
+    margin: 0 0 10px;
+}
+
+.box2-text1{
+   display: flex;
+   flex-direction : row;
+}
+
+.box2-text1 p{
+    color: hsl(39, 100%, 56%)
+}
+
+.box2-text2{
+    display: flex;
+    margin: 0 0;
+}
+
+.card-2-box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(173, 53%, 97%);
+    padding: 10px 7px;
+    border-radius: 10%;
+    margin: 0 0 10px;
+}
+
+.box3-text1{
+   display: flex;
+   flex-direction : row;
+}
+
+.box3-text1 p{
+    color: hsl(166, 100%, 37%)
+}
+
+.box3-text2{
+    display: flex;
+    margin: 0 0;
+}
+
+.card-2-box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(240, 71%, 97%);
+    padding: 10px 7px;
+    border-radius: 10%;
+    margin: 0 0 10px;
+}
+
+.box4-text1{
+   display: flex;
+   flex-direction : row;
+}
+
+.box4-text1 p{
+    color: hsl(234, 85%, 45%)
+}
+
+.box4-text2{
+    display: flex;
+    margin: 0 0;
+}
+
+@media (min-width: 992px) and (max-width: 1320px) {
+    .col-lg-2 {
+      flex-basis: 22.3%;
+      max-width: 22.3%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 876px) {
+    .col-md-3 {
+      flex-basis: 30.33%;
+      max-width: 30.33%;
+    }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 675px) {
+    .col-sm-4 {
+      flex-basis: 38%;
+      max-width: 38%;
+    }
+  }
+  
+
+  @media  (max-width: 575.20px) {
+    .row {
+        height: 0vh;
+    }
+    .custom-card {
+        color: white;
+        background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        padding: 5px 20px 0;
+        border-radius: 0;
+        position: static; 
+        z-index: 0;
+        left: 0;
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+    }
+    #card-body-text {
+        font-size: 1rem;
+        color: hsl(241, 100%, 89%); 
+    }
+    .custom-card-2 {
+        background-color: white;
+         padding: 5px 20px 0 50px;
+         border-top-right-radius: 0;
+         border-bottom-right-radius: 0;
+         border: none;
+         position: static; 
+         z-index: 0;
+     }
+     .custom-card-2.shadow {
+        box-shadow: none !important;
+      }
+  }
